@@ -50,7 +50,7 @@ export default function Home() {
             <span className="text-xs font-bold">Sat</span>
           </li>
         </ol>
-        <div className="mb-2">
+        <div className="mb-2 group">
           <div className="overflow-hidden bg-blue-400 rounded-2xl flex">
             <div className="flex-grow bg-yellow-300 rounded-e-xl p-3 h-48 flex flex-col justify-between">
               <header>
@@ -59,7 +59,7 @@ export default function Home() {
               </header>
               <span className="text-xs">7h30AM</span>
             </div>
-            <span className="flex-shrink flex justify-center items-center p-3">
+            <span className="flex-shrink flex w-0 px-0 group-hover:px-3 group-hover:w-auto justify-center items-center group-hover:ease-in-out group-hover:transition-all duration-500">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -74,7 +74,7 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="mb-2">
+        <div className="mb-2 group">
           <div className="overflow-hidden bg-blue-400 rounded-2xl flex">
             <div className="flex-grow bg-green-400 rounded-e-xl p-3 h-48 flex flex-col justify-between">
               <header>
@@ -83,7 +83,7 @@ export default function Home() {
               </header>
               <span className="text-xs">7h30AM</span>
             </div>
-            <span className="flex-shrink justify-center items-center p-3 hidden">
+            <span className="flex-shrink flex w-0 px-0 group-hover:px-3 group-hover:w-auto justify-center items-center group-hover:ease-in-out group-hover:transition-all duration-500">
               <svg
                 fill="none"
                 stroke="currentColor"
